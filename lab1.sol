@@ -57,7 +57,7 @@ contract Greeter {
     }
     
     function () {
-        throw;
+        revert();
     }
 
 }
